@@ -1,0 +1,20 @@
+CREATE TABLE didis (id INTEGER PRIMARY KEY, item TEXT, color TEXT, size INTEGER, price REAL); 
+INSERT INTO didis VALUES (01, "Converse", "black", 7, 12);
+INSERT INTO didis VALUES (02, "Converse", "white", 6, 12);
+INSERT INTO didis VALUES (03, "Vans", "black", 7, 10);
+INSERT INTO didis VALUES (04, "Vans", "white", 6, 10);
+INSERT INTO didis VALUES (05, "Jordans", "black", 8, 15);
+INSERT INTO didis VALUES (06, "Jordans", "white", 9, 15);
+INSERT INTO didis VALUES (07, "Uggs", "black", 6, 8);
+INSERT INTO didis VALUES (08, "Uggs", "white", 7, 8);
+INSERT INTO didis VALUES (09, "Gucci", "black", 7, 15);
+INSERT INTO didis VALUES (10, "Guccis", "white", 7, 15);
+INSERT INTO didis VALUES (11, "Boots", "black", 6, 10);
+INSERT INTO didis VALUES (12, "Boots", "white", 7, 10);
+INSERT INTO didis VALUES (13, "Slides", "black", 7, 5);
+INSERT INTO didis VALUES (14, "Slides", "white", 7, 5);
+INSERT INTO didis VALUES (15, "Flops", "black", 12, 99);
+
+Select * FROM didis;
+SELECT item FROM didis WHERE price >10;
+SELECT MAX(PRICE) FROM didis
